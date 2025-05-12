@@ -1,13 +1,21 @@
 format: jb-book
-root: readme
+root: introduction
 parts:
   - caption: ECS calculations
     chapters:
+      - file: notebooks/ec_calcs/methods.md
       - file: notebooks/ec_calcs/generate_ec_data
+      - file: notebooks/ec_calcs/Fig2
   - caption: Main Paper
     chapters:
+      - file: notebooks/main/results
       - file: notebooks/main/Fig1
-      - file: notebooks/main/Fig2
+      - file: notebooks/main/Fig3
+      - file: notebooks/main/Fig4
   - caption: Supplement
     chapters:
       - file: notebooks/supplement/supplement
+  - caption: Concluding Remarks
+    chapters:
+      - file: discussion_conclusion.md
+      - file: references.md

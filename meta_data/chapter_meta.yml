@@ -2,7 +2,7 @@ shortname: ECS (Cropper et al, 2023)
 type: Paleobook
 thumbnail: logo.png
 parts:
-  - caption: Loading Data
+  - caption: EC Calculations
     chapters:
       - shortname: Calculating ECS
         filename: generate_ec_data
@@ -12,20 +12,38 @@ parts:
             - climate sensitivity
           packages:
             - statsmodels
-  - caption: Main Analysis
-    chapters:
-      - shortname: Fig1
-        filename: Fig1
-        thumbnail: dashboard.png
+      - shortname: Fig2
+        filename: Fig2
+        thumbnail: fig2.png
         tags:
           domains:
             - data viz
           packages:
             - scipy
             - matplotlib
-      - shortname: Fig2
-        filename: Fig2
-        thumbnail: dashboard.png
+  - caption: Main Analysis
+    chapters:
+      - shortname: Fig1
+        filename: Fig1
+        thumbnail: fig1.png
+        tags:
+          domains:
+            - data viz
+          packages:
+            - scipy
+            - matplotlib
+      - shortname: Fig3
+        filename: Fig3
+        thumbnail: fig3.png
+        tags:
+          domains:
+            - data viz
+          packages:
+            - scipy
+            - matplotlib
+      - shortname: Fig4
+        filename: Fig4
+        thumbnail: fig4.png
         tags:
           domains:
             - data viz
