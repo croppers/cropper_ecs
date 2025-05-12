@@ -20,7 +20,7 @@ parts:
         tags:
           domains:
             - data viz
-            - data analysis
+            - data supplement
           packages:
             - pyleoclim
   - caption: Main Analysis
@@ -31,7 +31,7 @@ parts:
         tags:
           domains:
             - data viz
-            - data analysis
+            - data supplement
           packages:
             - pyleoclim
             - matplotlib
