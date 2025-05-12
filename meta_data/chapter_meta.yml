@@ -1,32 +1,41 @@
-shortname: Template Paleobook
+shortname: ECS (Cropper et al, 2023)
 type: Paleobook
 thumbnail: logo.png
 parts:
   - caption: Loading Data
     chapters:
-      - shortname: Pulling data from the LiPDverse
-        filename: loading_from_verse
+      - shortname: Calculating ECS
+        filename: generate_ec_data
         thumbnail: lipdverse.png
         tags:
           domains:
-            - data wrangling
+            - climate sensitivity
           packages:
-            - pyLiPD
-  - caption: Exploring the Data
+            - statsmodels
+  - caption: Main Analysis
     chapters:
-      - shortname: Visualizing as a dashboard
-        filename: plotting_gs_dashboard
+      - shortname: Fig1
+        filename: Fig1
         thumbnail: dashboard.png
         tags:
           domains:
             - data viz
-            - data supplement
           packages:
-            - pyleoclim
-  - caption: Main Analysis
+            - scipy
+            - matplotlib
+      - shortname: Fig2
+        filename: Fig2
+        thumbnail: dashboard.png
+        tags:
+          domains:
+            - data viz
+          packages:
+            - scipy
+            - matplotlib
+  - caption: Supplement
     chapters:
-      - shortname: Correlating Geoseries
-        filename: correlating_geoseries
+      - shortname: Supplemental Figures
+        filename: supplement
         thumbnail: corr.png
         tags:
           domains:

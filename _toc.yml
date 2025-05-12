@@ -1,12 +1,13 @@
 format: jb-book
 root: readme
 parts:
-  - caption: Loading Data
+  - caption: ECS calculations
     chapters:
-      - file: notebooks/loading_data/loading_from_verse
-  - caption: Exploring the Data
+      - file: notebooks/ec_calcs/generate_ec_data
+  - caption: Main Paper
     chapters:
-      - file: notebooks/main/plotting_gs_dashboard
-  - caption: Main Analysis
+      - file: notebooks/main/Fig1
+      - file: notebooks/main/Fig2
+  - caption: Supplement
     chapters:
-      - file: notebooks/supplement/correlating_geoseries
+      - file: notebooks/supplement/supplement
