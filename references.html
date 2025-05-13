@@ -1,0 +1,724 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>References &#8212; Template Paleobook</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'references';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Discussion and Conclusions" href="discussion_conclusion.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="introduction.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Template Paleobook - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Template Paleobook - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="introduction.html">
+                    Introduction
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">ECS calculations</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="notebooks/ec_calcs/methods.html">Data and Methods</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/ec_calcs/generate_ec_data.html">Generate EC Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/ec_calcs/Fig2.html">Figure 2</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Main Paper</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="notebooks/main/results.html">Results</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/main/Fig1.html">Figure 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/main/Fig3.html">Figure 3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/main/Fig4.html">Figure 4</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Supplement</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="notebooks/supplement/supplement.html">Supplement</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Concluding Remarks</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="discussion_conclusion.html">Discussion and Conclusions</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">References</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/jordanplanders/paleobook_template" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/jordanplanders/paleobook_template/issues/new?title=Issue%20on%20page%20%2Freferences.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/references.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>References</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="references">
+<h1>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h1>
+<ol class="arabic simple">
+<li><p><strong>Annan, J. D., Hargreaves, J. C., Mauritsen, T., &amp; Stevens, B. (2020).</strong><br />
+What could we learn about climate sensitivity from variability in the surface temperature record?<br />
+<em>Earth System Dynamics, 11(3), 26–37.</em><br />
+<a class="reference external" href="https://doi.org/10.5194/esd-11-709-2020">https://doi.org/10.5194/esd-11-709-2020</a></p></li>
+<li><p><strong>Bowman, K. W., Cressie, N., Qu, X., &amp; Hall, A. (2018).</strong><br />
+A hierarchical statistical framework for emergent constraints: Application to snow-albedo feedback.<br />
+<em>Geophysical Research Letters, 45(23), 13050–13059.</em><br />
+<a class="reference external" href="https://doi.org/10.1029/2018GL080082">https://doi.org/10.1029/2018GL080082</a></p></li>
+<li><p><strong>Braconnot, P., Harrison, S. P., Kageyama, M., Bartlein, P. J., Masson-Delmotte, V., Abe-Ouchi, A., et al. (2012).</strong><br />
+Evaluation of climate models using palaeoclimatic data.<br />
+<em>Nature Climate Change, 2(6), 417–424.</em><br />
+<a class="reference external" href="https://doi.org/10.1038/nclimate1456">https://doi.org/10.1038/nclimate1456</a></p></li>
+<li><p><strong>Braconnot, P., Harrison, S. P., Otto-Bliesner, B., Abe-Ouchi, A., Jungclaus, J., &amp; Peterschmitt, J. (2011).</strong><br />
+The paleoclimate modeling intercomparison project contribution to CMIP5.<br />
+<em>CLIVAR Exchanges No. 56, 16(2), 15–19.</em><br />
+<a class="reference external" href="https://www.clivar.org/sites/default/files/documents/Exchanges56.pdf">https://www.clivar.org/sites/default/files/documents/Exchanges56.pdf</a></p></li>
+<li><p><strong>Brient, F. (2020).</strong><br />
+Reducing uncertainties in climate projections with emergent constraints: Concepts, examples and prospects.<br />
+<em>Advances in Atmospheric Sciences, 37, 1–15.</em><br />
+<a class="reference external" href="https://doi.org/10.1007/s00376-019-9140-8">https://doi.org/10.1007/s00376-019-9140-8</a></p></li>
+<li><p><strong>Brown, P. T., Stolpe, M. B., &amp; Caldeira, K. (2018).</strong><br />
+Assumptions for emergent constraints.<br />
+<em>Nature, 553(7729), E1–E3.</em><br />
+<a class="reference external" href="https://doi.org/10.1038/s41586-018-0638-5">https://doi.org/10.1038/s41586-018-0638-5</a></p></li>
+<li><p><strong>Caldwell, P. M., Zelinka, M. D., &amp; Klein, S. A. (2018).</strong><br />
+Evaluating emergent constraints on equilibrium climate sensitivity.<br />
+<em>Journal of Climate, 31(10), 3921–3942.</em><br />
+<a class="reference external" href="https://doi.org/10.1175/JCLI-D-17-0631.1">https://doi.org/10.1175/JCLI-D-17-0631.1</a></p></li>
+<li><p><strong>Comboul, M., Emile-Geay, J., Evans, M. N., Mirnateghi, N., Cobb, K. M., &amp; Thompson, D. M. (2014).</strong><br />
+A probabilistic model of chronological errors in layer-counted climate proxies: Applications to annually banded coral archives.<br />
+<em>Climate of the Past, 10(2), 825–841.</em><br />
+<a class="reference external" href="https://doi.org/10.5194/cp-10-825-2014">https://doi.org/10.5194/cp-10-825-2014</a></p></li>
+<li><p><strong>Comboul, M., Emile-Geay, J., Hakim, G. J., &amp; Evans, M. N. (2015).</strong><br />
+Paleoclimate sampling as a sensor placement problem.<br />
+<em>Journal of Climate, 28(19), 7717–7740.</em><br />
+<a class="reference external" href="https://doi.org/10.1175/JCLI-D-14-00802">https://doi.org/10.1175/JCLI-D-14-00802</a></p></li>
+<li><p><strong>Cox, P. M., Huntingford, C., &amp; Williamson, M. S. (2018).</strong><br />
+Emergent constraint on equilibrium climate sensitivity from global temperature variability.<br />
+<em>Nature, 553(7688), 319–322.</em><br />
+<a class="reference external" href="https://doi.org/10.1038/nature25450">https://doi.org/10.1038/nature25450</a></p></li>
+<li><p><strong>Cox, P. M., Williamson, M. S., Nijsse, F. J. M. M., &amp; Huntingford, C. (2018).</strong><br />
+Cox et al. reply.<br />
+<em>Nature, 563(7729), E10–E15.</em><br />
+<a class="reference external" href="https://doi.org/10.1038/s41586-018-0641-x">https://doi.org/10.1038/s41586-018-0641-x</a></p></li>
+<li><p><strong>Cropper, S., Thackeray, C. W., &amp; Emile-Geay, J. (2023).</strong><br />
+Analysis codes for Cropper et al. 2023. <em>Zenodo.</em><br />
+<a class="reference external" href="https://doi.org/10.5281/zenodo.10137561">https://doi.org/10.5281/zenodo.10137561</a></p></li>
+<li><p><strong>Crowley, T. J. (2000).</strong><br />
+Causes of climate change over the past 1000 years.<br />
+<em>Science, 289(5477), 270–277.</em><br />
+<a class="reference external" href="https://doi.org/10.1126/science.289.5477.270">https://doi.org/10.1126/science.289.5477.270</a></p></li>
+<li><p><strong>Crowley, T. J., Zielinski, G., Vinther, B., Udisti, R., Kreutz, K., Cole-Dai, J., &amp; Castellano, E. (2008).</strong><br />
+Volcanism and the little ice age.<br />
+<em>PAGES News, 16(2), 22–23.</em><br />
+<a class="reference external" href="https://doi.org/10.1029/2002GL0166335">https://doi.org/10.1029/2002GL0166335</a></p></li>
+<li><p><strong>Evans, M. N., Smerdon, J. E., Kaplan, A., Tolwinski-Ward, S. E., &amp; Gonzalez-Rouco, J. F. (2014).</strong><br />
+Climate field reconstruction uncertainty arising from multivariate and nonlinear properties of predictors.<br />
+<em>Geophysical Research Letters, 41(24), 9127–9134.</em><br />
+<a class="reference external" href="https://doi.org/10.1002/2014GL062063">https://doi.org/10.1002/2014GL062063</a></p></li>
+<li><p><strong>Eyring, V., Bony, S., Meehl, G. A., Senior, C. A., Stevens, B., Stouffer, R. J., &amp; Taylor, K. E. (2016).</strong><br />
+Overview of the coupled model intercomparison project phase 6 (CMIP6) experimental design and organization.<br />
+<em>Geoscientific Model Development, 9(5), 1937–1958.</em><br />
+<a class="reference external" href="https://doi.org/10.5194/gmd-9-1937-2016">https://doi.org/10.5194/gmd-9-1937-2016</a></p></li>
+<li><p><strong>Eyring, V., Cox, P. M., Flato, G. M., Gleckler, P. J., Abramowitz, G., Caldwell, P., et al. (2019).</strong><br />
+Taking climate model evaluation to the next level.<br />
+<em>Nature Climate Change, 9(2), 102–110.</em><br />
+<a class="reference external" href="https://doi.org/10.1038/s41558-018-0355-y">https://doi.org/10.1038/s41558-018-0355-y</a></p></li>
+<li><p><strong>Frost, C., &amp; Thompson, S. G. (2000).</strong><br />
+Correcting for regression dilution bias: Comparison of methods for a single predictor variable.<br />
+<em>Journal of the Royal Statistical Society: Series A, 163(2), 173–189.</em><br />
+<a class="reference external" href="https://doi.org/10.1111/1467-985X.00164">https://doi.org/10.1111/1467-985X.00164</a></p></li>
+<li><p><strong>Gao, C., Robock, A., &amp; Ammann, C. (2008).</strong><br />
+Volcanic forcing of climate over the past 1500 years: An improved ice core-based index for climate models.<br />
+<em>Journal of Geophysical Research, 113(D23), D23111.</em><br />
+<a class="reference external" href="https://doi.org/10.1029/2008JD010239">https://doi.org/10.1029/2008JD010239</a></p></li>
+<li><p><strong>Gregory, J. M., Ingram, W. J., Palmer, M. A., Jones, G. S., Stott, P. A., Thorpe, R. B., et al. (2004).</strong><br />
+A new method for diagnosing radiative forcing and climate sensitivity.<br />
+<em>Geophysical Research Letters, 31(3), L03205.</em><br />
+<a class="reference external" href="https://doi.org/10.1029/2003GL018747">https://doi.org/10.1029/2003GL018747</a></p></li>
+<li><p><strong>Hall, A., Cox, P., Huntingford, C., &amp; Klein, S. (2019).</strong><br />
+Progressing emergent constraints on future climate change.<br />
+<em>Nature Climate Change, 9(4), 269–278.</em><br />
+<a class="reference external" href="https://doi.org/10.1038/s41558-019-0436-6">https://doi.org/10.1038/s41558-019-0436-6</a></p></li>
+<li><p><strong>Hope, C. (2015).</strong><br />
+The $10 trillion value of better information about the transient climate response.<br />
+<em>Philosophical Transactions of the Royal Society A, 373(2054), 20140429.</em><br />
+<a class="reference external" href="https://doi.org/10.1098/rsta.2014.0429">https://doi.org/10.1098/rsta.2014.0429</a></p></li>
+<li><p><strong>IPCC. (2021).</strong><br />
+Chapter 7. In <em>Climate change 2021: The physical science basis. Contribution of working Group I to the sixth assessment report of the IPCC</em><br />
+(pp. 923–1054). Cambridge University Press.</p></li>
+<li><p><strong>IPCC. (2022).</strong><br />
+Impacts of 1.5°C global warming on natural and human systems. In <em>Global warming of 1.5°C: IPCC special report</em><br />
+(pp. 175–312). Cambridge University Press.<br />
+<a class="reference external" href="https://doi.org/10.1017/9781009157940.005">https://doi.org/10.1017/9781009157940.005</a></p></li>
+<li><p><strong>Jungclaus, J. H., Bard, E., Baroni, M., Braconnot, P., Cao, J., Chini, L. P., et al. (2017).</strong><br />
+The PMIP4 contribution to CMIP6 – Part 3: The last millennium, scientific objective, and experimental design for the PMIP4 past1000 simulations.<br />
+<em>Geoscientific Model Development, 10(11), 4005–4033.</em><br />
+<a class="reference external" href="https://doi.org/10.5194/gmd-10-4005-2017">https://doi.org/10.5194/gmd-10-4005-2017</a></p></li>
+<li><p><strong>Kageyama, M., Braconnot, P., Harrison, S. P., Haywood, A. M., Jungclaus, J. H., Otto-Bliesner, B. L., et al. (2018).</strong><br />
+The PMIP4 contribution to CMIP6 – Part 1: Overview and over-arching analysis plan.<br />
+<em>Geoscientific Model Development, 11(3), 1033–1057.</em><br />
+<a class="reference external" href="https://doi.org/10.5194/gmd-11-1033-2018">https://doi.org/10.5194/gmd-11-1033-2018</a></p></li>
+<li><p><strong>Klein, S. A., &amp; Hall, A. (2015).</strong><br />
+Emergent constraints for cloud feedbacks.<br />
+<em>Current Climate Change Reports, 1(4), 276–287.</em><br />
+<a class="reference external" href="https://doi.org/10.1007/s40641-015-0027-1">https://doi.org/10.1007/s40641-015-0027-1</a></p></li>
+<li><p><strong>Knutti, R., &amp; Hegerl, G. C. (2008).</strong><br />
+The equilibrium sensitivity of the Earth’s temperature to radiation changes.<br />
+<em>Nature Geoscience, 1(11), 735–743.</em><br />
+<a class="reference external" href="https://doi.org/10.1038/ngeo337">https://doi.org/10.1038/ngeo337</a></p></li>
+<li><p><strong>Knutti, R., Rugenstein, M. A. A., &amp; Hegerl, G. C. (2017).</strong><br />
+Beyond equilibrium climate sensitivity.<br />
+<em>Nature Geoscience, 10, 727–736.</em><br />
+<a class="reference external" href="https://doi.org/10.1038/ngeo3017">https://doi.org/10.1038/ngeo3017</a></p></li>
+<li><p><strong>Kubo, R. (1957).</strong><br />
+Statistical-mechanical theory of irreversible processes. I. General theory and simple applications to magnetic and conduction problems.<br />
+<em>Journal of the Physical Society of Japan, 12(6), 570–586.</em><br />
+<a class="reference external" href="https://doi.org/10.1143/JPSJ.12.570">https://doi.org/10.1143/JPSJ.12.570</a></p></li>
+<li><p><strong>Leith, C. E. (1975).</strong><br />
+Climate response and fluctuation dissipation.<br />
+<em>Journal of the Atmospheric Sciences, 32(10), 2022–2026.</em><br />
+<a class="reference external" href="https://doi.org/10.1175/1520-0469(1975)032%3C2022:CRAFD%3E2.0.CO;2">https://doi.org/10.1175/1520-0469(1975)032&lt;2022:CRAFD&gt;2.0.CO;2</a></p></li>
+<li><p><strong>Mauritsen, T., Bader, J., Becker, T., Behrens, J., Bittner, M., Brokopf, R., et al. (2019).</strong><br />
+Developments in the MPI-M earth system model version 1.2 (MPI-ESM1.2) and its response to increasing CO2.<br />
+<em>Journal of Advances in Modeling Earth Systems, 11(4), 998–1038.</em><br />
+<a class="reference external" href="https://doi.org/10.1029/2018MS001400">https://doi.org/10.1029/2018MS001400</a></p></li>
+<li><p><strong>Meehl, G. A., Washington, W. M., Arblaster, J. M., Hu, A., Teng, H., Kay, J. E., et al. (2013).</strong><br />
+Climate change projections in CESM1(CAM5) compared to CCSM4.<br />
+<em>Journal of Climate, 26(17), 6287–6308.</em><br />
+<a class="reference external" href="https://doi.org/10.1175/JCLI-D-12-00572.1">https://doi.org/10.1175/JCLI-D-12-00572.1</a></p></li>
+<li><p><strong>Morice, C. P., Kennedy, J. J., Rayner, N. A., &amp; Jones, P. D. (2012).</strong><br />
+Quantifying uncertainties in global and regional temperature change using an ensemble of observational estimates: The HadCRUT4 dataset.<br />
+<em>Journal of Geophysical Research, 117(D8), D08101.</em><br />
+<a class="reference external" href="https://doi.org/10.1029/2011JD017187">https://doi.org/10.1029/2011JD017187</a></p></li>
+<li><p><strong>Nijsse, F. J. M. M., Cox, P. M., Huntingford, C., &amp; Williamson, M. S. (2019).</strong><br />
+Decadal global temperature variability increases strongly with climate sensitivity.<br />
+<em>Nature Climate Change, 9(8), 598–601.</em><br />
+<a class="reference external" href="https://doi.org/10.1038/s41558-019-0527-4">https://doi.org/10.1038/s41558-019-0527-4</a></p></li>
+<li><p><strong>Otto-Bliesner, B. L., Brady, E. C., Fasullo, J., Jahn, A., Landrum, L., Stevenson, S., et al. (2016).</strong><br />
+Climate variability and change since 850 C.E.: An ensemble approach with the community earth system model (CESM).<br />
+<em>Bulletin of the American Meteorological Society, 97(5), 735–754.</em><br />
+<a class="reference external" href="https://doi.org/10.1175/BAMS-D-14-00233.1">https://doi.org/10.1175/BAMS-D-14-00233.1</a></p></li>
+<li><p><strong>PAGES2k Consortium. (2017).</strong><br />
+A global multiproxy database for temperature reconstructions of the Common Era.<br />
+<em>Scientific Data, 4(1), 170088.</em><br />
+<a class="reference external" href="https://doi.org/10.1038/sdata.2017.88">https://doi.org/10.1038/sdata.2017.88</a></p></li>
+<li><p><strong>PAGES2k Consortium. (2019).</strong><br />
+Consistent multidecadal variability in global temperature reconstructions and simulations over the Common Era.<br />
+<em>Nature Geoscience, 12(8), 643–649.</em><br />
+<a class="reference external" href="https://doi.org/10.1038/s41561-019-0400-0">https://doi.org/10.1038/s41561-019-0400-0</a></p></li>
+<li><p><strong>Phipps, S. J., Rotstayn, L. D., Gordon, H. B., Roberts, J. L., Hirst, A. C., &amp; Budd, W. F. (2012).</strong><br />
+The CSIRO Mk3L climate system model version 1.0 – Part 2: Response to external forcings.<br />
+<em>Geoscientific Model Development, 5(3), 649–682.</em><br />
+<a class="reference external" href="https://doi.org/10.5194/gmd-5-649-2012">https://doi.org/10.5194/gmd-5-649-2012</a></p></li>
+<li><p><strong>Po-Chedley, S., Proistosescu, C., Armour, K. C., &amp; Santer, B. D. (2018).</strong><br />
+Climate constraint reflects forced signal.<br />
+<em>Nature, 563(7729), E6–E9.</em><br />
+<a class="reference external" href="https://doi.org/10.1038/s41586-018-0640-y">https://doi.org/10.1038/s41586-018-0640-y</a></p></li>
+<li><p><strong>Randall, D. A., Wood, R. A., Bony, S., Colman, R., Fichefet, T., Fyfe, J., et al. (2007).</strong><br />
+Climate models and their evaluation. In S. Solomon, D. Qin, M. Manning, Z. Chen, M. Marquis, K. B. Averyt, et al. (Eds.),<br />
+<em>Climate change 2007: The physical science basis. Contribution of working group I to the fourth assessment report of the IPCC.</em><br />
+Cambridge University Press.</p></li>
+<li><p><strong>Renoult, M. (2022).</strong><br />
+<em>Paleoclimate perspective on Earth’s climate sensitivity and feedbacks</em> (PhD dissertation). Department of Meteorology, Stockholm University.<br />
+<a class="reference external" href="http://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-211778">http://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-211778</a></p></li>
+<li><p><strong>Rypdal, M., Fredriksen, H.-B., Rypdal, K., &amp; Steene, R. J. (2018).</strong><br />
+Emergent constraints on climate sensitivity.<br />
+<em>Nature, 563(7729), E4–E5.</em><br />
+<a class="reference external" href="https://doi.org/10.1038/s41586-018-0639-4">https://doi.org/10.1038/s41586-018-0639-4</a></p></li>
+<li><p><strong>Sanderson, B. M., Pendergrass, A. G., Koven, C. D., Brient, F., Booth, B. B. B., Fisher, R. A., &amp; Knutti, R. (2021).</strong><br />
+The potential for structural errors in emergent constraints.<br />
+<em>Earth System Dynamics, 12(3), 899–918.</em><br />
+<a class="reference external" href="https://doi.org/10.5194/esd-12-899-2021">https://doi.org/10.5194/esd-12-899-2021</a></p></li>
+<li><p><strong>Schlund, M., Lauer, A., Gentine, P., Sherwood, S. C., &amp; Eyring, V. (2020).</strong><br />
+Emergent constraints on equilibrium climate sensitivity in CMIP5: Do they hold for CMIP6?<br />
+<em>Earth System Dynamics, 11(4), 1233–1258.</em><br />
+<a class="reference external" href="https://doi.org/10.5194/esd-11-1233-2020">https://doi.org/10.5194/esd-11-1233-2020</a></p></li>
+<li><p><strong>Sherwood, S. C., Webb, M. J., Annan, J. D., Armour, K. C., Forster, P. M., Hargreaves, J. C., et al. (2020).</strong><br />
+An assessment of Earth’s climate sensitivity using multiple lines of evidence.<br />
+<em>Reviews of Geophysics, 58(4), e2019RG000678.</em><br />
+<a class="reference external" href="https://doi.org/10.1029/2019RG000678">https://doi.org/10.1029/2019RG000678</a></p></li>
+<li><p><strong>Taylor, K. E., Stouffer, R. J., &amp; Meehl, G. A. (2012).</strong><br />
+An overview of CMIP5 and the experiment design.<br />
+<em>Bulletin of the American Meteorological Society, 93(4), 485–498.</em><br />
+<a class="reference external" href="https://doi.org/10.1175/BAMS-D-11-00094.1">https://doi.org/10.1175/BAMS-D-11-00094.1</a></p></li>
+<li><p><strong>Tierney, J. E., Poulsen, C. J., Montañez, I. P., Bhattacharya, T., Feng, R., Ford, H. L., et al. (2020).</strong><br />
+Past climates inform our future.<br />
+<em>Science, 370(6517), eaay3701.</em><br />
+<a class="reference external" href="https://doi.org/10.1126/science.aay3701">https://doi.org/10.1126/science.aay3701</a></p></li>
+<li><p><strong>Tingley, M. P., Craigmile, P. F., Haran, M., Li, B., Mannshardt, M., &amp; Rajaratnam, B. (2012).</strong><br />
+Piecing together the past: Statistical insights into paleoclimatic reconstructions.<br />
+<em>Quaternary Science Reviews, 35, 1–22.</em><br />
+<a class="reference external" href="https://doi.org/10.1016/j.quascirev.2012.01.012">https://doi.org/10.1016/j.quascirev.2012.01.012</a></p></li>
+<li><p><strong>Toohey, M., &amp; Sigl, M. (2017).</strong><br />
+Volcanic stratospheric sulfur injections and aerosol optical depth from 500 BCE to 1900 CE.<br />
+<em>Earth System Science Data, 9(2), 809–831.</em><br />
+<a class="reference external" href="https://doi.org/10.5194/essd-9-809-2017">https://doi.org/10.5194/essd-9-809-2017</a></p></li>
+<li><p><strong>Williamson, M. S., Thackeray, C. W., Cox, P. M., Hall, A., Huntingford, C., &amp; Nijsse, F. J. M. M. (2021).</strong><br />
+Emergent constraints on climate sensitivities.<br />
+<em>Reviews of Modern Physics, 93(2), 025004.</em><br />
+<a class="reference external" href="https://doi.org/10.1103/RevModPhys.93.025004">https://doi.org/10.1103/RevModPhys.93.025004</a></p></li>
+<li><p><strong>Zelinka, M. D., Myers, T. A., McCoy, D. T., Po-Chedley, S., Caldwell, P. M., Ceppi, P., et al. (2020).</strong><br />
+Causes of higher climate sensitivity in CMIP6 models.<br />
+<em>Geophysical Research Letters, 47(1), e2019GL085782.</em><br />
+<a class="reference external" href="https://doi.org/10.1029/2019GL085782">https://doi.org/10.1029/2019GL085782</a></p></li>
+<li><p><strong>Zhang, J., Li, L., Zhou, T., &amp; Xin, X. (2013).</strong><br />
+Variation of surface temperature during the last millennium in a simulation with the FGOALS-gl climate system model.<br />
+<em>Advances in Atmospheric Sciences, 30(3), 699–712.</em><br />
+<a class="reference external" href="https://doi.org/10.1007/s00376-013-2178-0">https://doi.org/10.1007/s00376-013-2178-0</a></p></li>
+<li><p><strong>Zhou, T. J., Wang, B., Yu, Y. Q., Liu, Y., Zheng, W., Li, L., et al. (2018).</strong><br />
+The FGOALS climate system model as a modeling tool for supporting climate sciences: An overview.<br />
+<em>Earth and Planetary Physics, 2(4), 276–291.</em><br />
+<a class="reference external" href="https://doi.org/10.26464/epp2018026">https://doi.org/10.26464/epp2018026</a></p></li>
+<li><p><strong>Zhu, F., Emile-Geay, J., Anchukaitis, K. J., McKay, N. P., Stevenson, S., &amp; Meng, Z. (2023).</strong><br />
+The pseudoPAGES2k dataset v1.0 [Dataset]. <em>Zenodo.</em><br />
+<a class="reference external" href="https://doi.org/10.5281/zenodo.7652534">https://doi.org/10.5281/zenodo.7652534</a></p></li>
+<li><p><strong>Zhu, F., Emile-Geay, J., Hakim, G. J., King, J., &amp; Anchukaitis, K. J. (2020).</strong><br />
+Resolving the differences in the simulated and reconstructed temperature response to volcanism.<br />
+<em>Geophysical Research Letters, 47(8), e2019GL086908.</em><br />
+<a class="reference external" href="https://doi.org/10.1029/2019GL086908">https://doi.org/10.1029/2019GL086908</a></p></li>
+<li><p><strong>Zhu, J., Poulsen, C. J., &amp; Otto-Bliesner, B. L. (2020).</strong><br />
+High climate sensitivity in CMIP6 model not supported by paleoclimate.<br />
+<em>Nature Climate Change, 10(5), 378–379.</em><br />
+<a class="reference external" href="https://doi.org/10.1038/s41558-020-0764-6">https://doi.org/10.1038/s41558-020-0764-6</a></p></li>
+</ol>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="discussion_conclusion.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Discussion and Conclusions</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By your name
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
